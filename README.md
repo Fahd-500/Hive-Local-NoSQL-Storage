@@ -100,8 +100,8 @@ test/
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd "mobile computing assignment 5"
+git clone https://github.com/Fahd-500/Hive-Local-NoSQL-Storage.git
+cd Hive-Local-NoSQL-Storage
 ```
 
 ### 2. Install Dependencies
@@ -147,15 +147,17 @@ Follow these steps to reproduce and verify all assignment criteria:
 
 ## 📸 Screenshots
 
-> Place application screenshots demonstrating each action in the `screenshots/` directory:
-
-| 1. Posts Screen (Online / Cached) | 2. Empty Favorites Screen |
+| 1. Posts Screen | 2. Toggling Favorites |
 |:---:|:---:|
-| ![Posts Screen](screenshots/1_posts_screen.png) | ![Empty Favorites](screenshots/2_favorites_empty.png) |
+| <img src="screenshots/1_posts_screen.png" width="300"/> | <img src="screenshots/2_favorites_toggle.png" width="300"/> |
 
-| 3. Favorites Screen (With Items) | 4. Offline Mode Verification |
+| 3. Empty Favorites Screen | 4. Favorites List Screen |
 |:---:|:---:|
-| ![Favorites List](screenshots/3_favorites_list.png) | ![Offline Mode](screenshots/4_offline_mode.png) |
+| <img src="screenshots/2_favorites_empty.png" width="300"/> | <img src="screenshots/3_favorites_list.png" width="300"/> |
+
+| 5. Offline Mode Verification |
+|:---:|
+| <img src="screenshots/4_offline_mode.png" width="350"/> |
 
 ---
 
@@ -170,4 +172,4 @@ Follow these steps to reproduce and verify all assignment criteria:
 - [x] `PostsScreen` AppBar contains navigation action to `FavoritesScreen`
 - [x] `FavoritesScreen` displays list of saved favorites using same card design
 - [x] Friendly `"No favorites yet"` message when favorites box is empty
-- [x] Comprehensive `README.md` and automated unit tests passing 100%
+- [x] Comprehensive `README.md` with all feature screenshots and automated unit tests passing 100%
